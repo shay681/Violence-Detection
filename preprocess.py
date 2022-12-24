@@ -1,7 +1,7 @@
 from utils import *
 
-VIOLENT_PATH = 'data/fights/'
-NON_VIOLENT_PATH = 'data/noFights/'
+VIOLENT_PATH = 'data/train/Fight/'
+NON_VIOLENT_PATH = 'data/train/NonFight'
 
 if __name__ == "__main__":
     violent_videos_files = get_file_names_from_dir(VIOLENT_PATH)
