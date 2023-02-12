@@ -14,23 +14,14 @@ Detecting violence in videos is a well known problem that has various solutions.
 The Full article can be read [HERE](https://github.com/shay681/Violence-Detection/blob/main/Identifying%20violence%20in%20videos%20using%20hierarchical%20attention%20networks.pdf).
 
 ## Usage
-###  Crete Data
-```mermaid
-graph LR
-A[Create-pose estimations of your data set using VitPose] ----> B[Save the pose-estimations as H5 files]
-```
-### Use Code
-```mermaid
-graph LR
-A[DATA] ----> C[Train a model with train.py]
-A ----> B
-B[Use grid-search and cross validation to tune your parameters] ----> C[Train a model with train.py]
-```
-### Evaluation
-```mermaid
-graph LR
-A[Model] ----> C[Test your model with test.py] ----> D[Improve the logic, have fun, and don't forget to credit us]
-```
+
+ 1. Create-pose estimations of your data set using VitPose.
+ 2. Save the pose-estimations as H5 files.
+ 3. Train a model with train.py
+ 4. Use grid-search and cross validation to tune your parameters.
+ 5. Test your model with test.py.
+ 6. Improve the logic, have fun, and don't forget to credit us.
+
 ## Notes
 
  1. The code may need some alteration.
